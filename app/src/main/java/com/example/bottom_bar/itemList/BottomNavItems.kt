@@ -19,7 +19,7 @@ data class BottomNavItems(
     val badgeCount: Int
 )
 
-val bottomNavItemsList = listOf(
+val bottomNavItemList = listOf(
     BottomNavItems(
         title = "Home",
         selectedIcon = Icons.Filled.Home,

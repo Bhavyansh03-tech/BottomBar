@@ -1,4 +1,4 @@
-package com.example.bottom_bar.bottomBarScreens
+package com.example.bottom_bar.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,14 +11,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavHostController
 
 @Composable
-fun ProfileScreen(navController: NavHostController) {
+fun NotificationScreen(navController: NavHostController) {
 
     Box(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Profile",
+            text = "Notifications",
             fontSize = MaterialTheme.typography.headlineLarge.fontSize,
             color = Color.Black
         )
