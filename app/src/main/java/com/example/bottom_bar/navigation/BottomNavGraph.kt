@@ -1,22 +1,19 @@
 package com.example.bottom_bar.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.bottom_bar.bottomBarScreens.HomeScreen
-import com.example.bottom_bar.bottomBarScreens.NotificationScreen
-import com.example.bottom_bar.bottomBarScreens.ProfileScreen
-import com.example.bottom_bar.bottomBarScreens.SearchScreen
+import com.example.bottom_bar.screens.HomeScreen
+import com.example.bottom_bar.screens.NotificationScreen
+import com.example.bottom_bar.screens.ProfileScreen
+import com.example.bottom_bar.screens.SearchScreen
 
 @Composable
-fun BottomNavigation(
-    modifier: Modifier = Modifier,
+fun BottomNavGraph(
     navController: NavHostController
 ) {
     NavHost(
-        modifier = modifier,
         navController = navController,
         startDestination = ScreenName.Home.route
     ){

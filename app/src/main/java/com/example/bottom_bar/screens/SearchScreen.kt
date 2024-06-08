@@ -1,4 +1,4 @@
-package com.example.bottom_bar.bottomBarScreens
+package com.example.bottom_bar.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavHostController
 
 @Composable
-fun NotificationScreen(navController: NavHostController) {
+fun SearchScreen(navController: NavHostController) {
 
     Box(
         modifier = Modifier
@@ -19,7 +19,7 @@ fun NotificationScreen(navController: NavHostController) {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Notifications",
+            text = "Posts",
             fontSize = MaterialTheme.typography.headlineLarge.fontSize,
             color = Color.Black
         )

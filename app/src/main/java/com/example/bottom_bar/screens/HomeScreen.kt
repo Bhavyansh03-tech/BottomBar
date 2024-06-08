@@ -1,4 +1,4 @@
-package com.example.bottom_bar.bottomBarScreens
+package com.example.bottom_bar.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

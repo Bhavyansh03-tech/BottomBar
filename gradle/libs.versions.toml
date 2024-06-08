@@ -1,4 +1,5 @@
 [versions]
+accompanistPagerIndicators = "0.30.1"
 agp = "8.4.1"
 kotlin = "2.0.0"
 coreKtx = "1.13.1"
@@ -12,7 +13,9 @@ navigationCompose = "2.8.0-beta02"
 kotlinxSerializationJson = "1.7.0-RC"
 
 [libraries]
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanistPagerIndicators" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+google-accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPagerIndicators" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

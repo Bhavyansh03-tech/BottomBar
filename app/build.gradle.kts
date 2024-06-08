@@ -74,4 +74,7 @@ dependencies {
 
     // Serialization :->
     implementation(libs.kotlinx.serialization.json)
+
+    implementation(libs.google.accompanist.pager)
+    implementation(libs.accompanist.pager.indicators)
 }
