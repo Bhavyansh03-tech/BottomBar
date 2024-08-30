@@ -222,7 +222,9 @@ Contributions are welcome! Please fork the repository and use a feature branch. 
 
 - Inspiration from various Android development tutorials and documentation.
 
-
 ## Contact
 
-For questions or feedback, please contact [@Bhavyansh03-tech](https://github.com/Bhavyansh03-tech).
+For questions or feedback, please contact [@Bhavyansh03-tech](https://github.com/Bhavyansh03-tech) on GitHub or connect with me on [LinkedIn](https://www.linkedin.com/in/bhavyansh03/).
+
+---
+
